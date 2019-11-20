@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+    <title>AG Portfolio</title>
+</head>
+
+<body>
+    <section class="portfolioNav portfolioNav-hidden">
+        <div class="portfolioNav-header">
+            <h3>Portfolio</h3>
+            <input type="button" value="?" class="toggle-portfolioNav-display nav-btn">
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Page's GIT</a></li>
+            <li><input type="button" value="Page's Info" class="nav-btn openPageInfo-btn"></li>
+        </ul>
+    </section>
+    <section class="pageInfo hidden">
+        <div class="info">
+            <h3>About this page</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta assumenda, architecto culpa sint ullam
+                necessitatibus placeat, maxime maiores enim dignissimos repellendus minima mollitia quasi expedita ea
+                sit, laudantium provident iste.</p>
+            <button class='closePageInfo-btn'>Close</button>
+        </div>
+    </section>
+
+    <section class="pageContainer">
+
+        <article class="titleContainer">
+            <h1>Alex Greenwood</h1>
+            <h2>Portfolio</h2>
+        </article>
+
+        <section class="mainContainer">
+            <nav class="mainContainerNav">
+                <input type="button" value="RECENT" class="nav-btn recentTab">
+                <a href="https://github.com/AGreenwoodMelb" target="_blank">Git</a>
+                <a href="https://www.linkedin.com/in/alexander-greenwood-australia/" target="_blank">LinkedIn</a>
+                <input type="button" value="SEARCH" class="nav-btn searchTab">
+            </nav>
+            <div class="previewContainer">
+                <img src="#" alt="Preview image">
+            </div>
+            <div class="recentContainer hidden">
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+                <div class="recentCard">
+                    <a href="">
+                        <img src="https://via.placeholder.com/350" alt="Image">
+                        <h3>Title too long for this container to handle send help</h3>
+                    </a>
+                </div>
+            </div>
+
+            <div class="searchContainer hidden">
+                <h2>Search</h2>
+                <form autocomplete="off" action="/results" method="post">
+                    <div>
+                        <label for="pageTitle">By Page Title:</label>
+                        <input type="text" name="pageTitle" id="pageTitle" placeholder="Page Title">
+                    </div>
+                    <div>
+                        <label for="pageTech">By Page Technology:</label>
+                        <input type="text" name="pageTech" id="pageTech" placeholder="E.g. HTML, CSS (comma seperated)">
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <article class="about">
+            <h2>About</h2>
+        </article>
+
+        <!-- <footer class="pageFooter">
+            <nav class="footerNav">
+                <a href="https://github.com/AGreenwoodMelb"><img src=" img/GitHub-Mark-64px.png" alt="GIT"
+                        class="icon"></a>
+                <a href="https://www.linkedin.com/in/alexander-greenwood-australia/"><img src="img/GitHub-Mark-64px.png"
+                        alt="LinkedIn" class="icon"></a>
+            </nav>
+        </footer> -->
+
+    </section>
+    <script src="landingPage.js"></script>
+</body>
+
+</html>
